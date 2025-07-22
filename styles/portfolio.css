@@ -165,4 +165,7 @@ nav ul{
       .skill-container{
         flex-direction: column;
       }
+      .resume-container{
+        flex-direction: column;
+      }
     }
