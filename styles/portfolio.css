@@ -154,3 +154,15 @@ nav ul{
     .resume-container{
        display: flex; 
     }
+
+
+    /* responsive */
+    .hide{
+      display: none;
+    }
+
+    @media screen and (max-width: 576px){
+      .skill-container{
+        flex-direction: column;
+      }
+    }
