@@ -162,10 +162,13 @@ nav ul{
     }
 
     @media screen and (max-width: 576px){
-      .skill-container{
+      .skill-container, .about-items{
         flex-direction: column;
       }
       .resume-container{
         flex-direction: column;
+      }
+      .about{
+        padding: 20px;
       }
     }
